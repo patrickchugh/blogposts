@@ -1,6 +1,6 @@
 # How to document your software like a boss
 
-**TLDR:** Everyone's documentation is always out of date and throwing Generative AI and LLMs at the problem can help, but introduces non-determinism. Run the same documentation generator twice, get different documentation. That's not acceptable for enterprise systems - and good luck passing your next internal audit with that approach where you can't separate hallucinations from fact. The solution? A hybrid approach that treats LLMs as gap-fillers, not authors. The result: documentation that's 80% deterministic, 20% LLM-enhanced, and 100% auditable.
+**TLDR:** Everyone's documentation is always out of date and throwing Generative AI LLMs at the problem can help, but introduces non-determinism. Run the same documentation generator twice, get different documentation. That's not acceptable for enterprise systems - and good luck passing your next internal audit with that approach where you can't separate hallucinations from fact. The solution? A hybrid approach that treats LLMs as gap-fillers, not authors. The result: documentation that's 80% deterministic, 20% LLM-enhanced, and 100% auditable.
 
 ---
 
