@@ -75,7 +75,7 @@ There are genuine challenges with this approach that deserve acknowledgment.
 
 For enterprises subject to regulatory requirements, this approach offers something valuable: **an audit trail**.
 
-Your documentation is generated from code. The generation process is deterministic (or near-deterministic with prompted LLM constraints like telling it not to guess if it can't prove anything and hyperparamater settings via temperature, Top-K parameters etc). The output is version-controlled. You can prove that documentation version X was generated from code version Y on date Z.
+Your documentation is generated from code. The generation process is deterministic (or near-deterministic with prompted LLM constraints like telling it not to guess if it can't prove anything and hyper parameter settings via temperature, Top-K parameters etc). The output is version-controlled. You can prove that documentation version X was generated from code version Y on date Z.
 
 This matters for compliance frameworks like SOX, MiFID II, and DORA that require demonstrable traceability between systems and their documentation. When the auditors come knocking, you can point to a pipeline;not a wiki page last edited by someone who left the company.
 
