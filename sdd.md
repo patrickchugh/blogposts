@@ -1,6 +1,6 @@
 > **TL;DR:** Documentation always drifts from reality because code evolves but specs don't. Spec-Driven Development (SDD) using LLMs flips this by making specifications generate code rather than merely guide it. Using Generative AI, structured specs become the source of truth that automatically produces implementations. The workflow has four phases: establish a "constitution" of project principles, generate detailed plans and tasks from requirements, implement via iterative code generation with TDD, then feed production metrics back into specs. The result: documentation that can't lie because the code derives from it. SDD won't replace developer judgment or fix bad architecture, but it shifts craft from writing code to precisely defining intent.
 
-# Your Docs Are Lying to You
+# The future of AI led Software Development
 
 Here's an uncomfortable truth: by the time you finish reading your project's requirements document, it's probably wrong.
 
