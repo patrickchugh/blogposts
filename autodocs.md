@@ -1,10 +1,11 @@
 # How to document your software like a boss
+### By Patrick Chugh
 
 **TLDR:** Everyone's documentation is always out of date and throwing Generative AI LLMs at the problem can help, but introduces non-determinism. Run the same documentation generator twice, get different documentation. That's not acceptable for enterprise systems - and good luck passing your next internal audit with that approach where you can't separate hallucinations from fact. The solution? A hybrid approach that treats LLMs as gap-fillers, not authors. The result: documentation that's 80% deterministic, 20% LLM-enhanced, and 100% auditable.
 
 ---
 
-I've spent more than two decades helping enterprises modernise their technology architecture and software development practices. When I look back at my career, whether I was leading the Open Banking API team at HSBC, leading an IT team at Credit Suisse (now UBS), or helping a JP Morgan CTO as a Solutions Architect at Amazon, I found that one constant remained: Documentation is always outdated. *Always*. Whenever I would go to an application team and ask them if they could share their architecture what I got was a lot of uncomfortable smiles and some outdated diagrams produced by someone who had left the company a year ago.
+I've spent more than two decades helping enterprises modernise their technology architecture and software development practices. When I look back at my career, whether I was developing the AWS stack for the Open Banking API team at HSBC, leading the Asia Pacific IT team at Credit Suisse (now UBS), or helping a JP Morgan CTO as a Solutions Architect at Amazon, I found that one constant remained: Documentation is always outdated. *Always*. Whenever I would go to an application team and ask them if they could share their architecture what I got was a lot of uncomfortable smiles and some outdated diagrams produced by someone who had left the company a year ago.
 
 To be fair, the information I needed did exist *somewhere*. I could eventually piece together the entire picture of their app by studying Confluence pages edited six months ago, combined with some updates I got over email, and cross-referencing that with README files that nobody remembered to update, and then trying to understand architecture diagrams that reflected the system as it was three sprints ago.
 
@@ -48,9 +49,9 @@ Making this work requires orchestrating several tools, each handling what it doe
 
 **For publishing**, CI/CD pipelines using Jenkins or GitHub Actions push the generated documentation directly to Confluence or SharePoint. Documentation updates become part of your deployment process, not an afterthought.
 
-## Pipeline Architecture
+## Example Pipeline Architecture
 
-The I've been refining a pipeline script that follows a specific sequence, visualised below:<img src="ADP.png" title="" alt="pipeline" data-align="center">
+I've been refining a pipeline script that follows a specific sequence, visualised below:<img src="ADP.png" title="" alt="pipeline" data-align="center">
 
  
 
