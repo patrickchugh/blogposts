@@ -43,7 +43,7 @@ Making this work requires orchestrating several tools, each handling what it doe
 
 **For codebase analysis**, [Repomix](https://repomix.com/) is a tool that packs your entire repository into a structured format optimised for LLM analysis. But here's the key: you don't want to be sending this directly to an LLM for interpretation. You're going to be extracting the deterministic metadata first, and only sending the gaps.
 
-**For tech stack detection**, dependency scanning tools like [Syft]( https://github.com/anchore/syft) and AST parsers can identify every framework, library, and language version in use. This forms the foundation of your technical documentation.
+**For tech stack detection**, dependency scanning tools like [Syft]( https://github.com/anchore/syft) spit out a software BOM, and AST parsers can identify every framework, library, and language version in use. This forms the foundation of your technical documentation.
 
 **For the template**, [Jinja2]( https://pypi.org/project/Jinja2/) provides deterministic structure. Your documentation always has the same sections, the same headings, the same format. The LLM fills slots within this structure it doesn't create the structure.
 
