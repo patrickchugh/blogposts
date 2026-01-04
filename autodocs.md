@@ -109,7 +109,7 @@ The virtuous cycle looks like this:
 
 Think about what happens when documentation is always accurate and always current:
 
-Your AI coding assistants stop hallucinating about your codebase because they're grounded in documentation that reflects reality. Your autonomous agents can reason about your systems because they have reliable context to work with. Your RAG pipelines return useful results because the documents they search aren't six months stale.
+Your AI coding assistants stop hallucinating about your codebase because they're grounded in documentation that has a strict template and reflects reality. Your autonomous agents can reason about your systems because they have reliable context to work with. Your RAG pipelines return useful results because the documents they search aren't six months stale.
 
 New engineers onboard faster because the documentation they read matches the code they're debugging. Knowledge doesn't walk out the door when senior developers leave;it's captured in the pipeline outputs. Cross-team dependencies become visible because the documentation reveals them automatically.
 
