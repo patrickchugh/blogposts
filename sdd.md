@@ -1,16 +1,6 @@
 > **TL;DR:** Documentation always drifts from reality because code evolves but specs don't. Spec-Driven Development (SDD) using LLMs flips this by making specifications generate code rather than merely guide it. Using Generative AI, structured specs become the source of truth that automatically produces implementations. The workflow has four phases: establish a "constitution" of project principles, generate detailed plans and tasks from requirements, implement via iterative code generation with TDD, then feed production metrics back into specs. The result: documentation that can't lie because the code derives from it. SDD won't replace developer judgment or fix bad architecture, but it shifts craft from writing code to precisely defining intent.
 
-# The future of AI led Software Development
-
-Here's an uncomfortable truth: by the time you finish reading your project's requirements document, it's probably wrong.
-
-Not because anyone wrote it badly. Not because the original authors were careless. It's wrong because software development has a fundamental problem: code evolves, but specs don't.
-
-With the pace of change accelerating in the world, it's out of date often shortly after it's written. That requirements document you spent days writing? It's now historical fiction; a snapshot of what you _intended_ to build, not what's actually running.
-
-Don't think so? Think about the last time you updated a PRD after the hotfix at 2am or after the "temporary" workaround that's now load-bearing. What about after your company's product pivoted based on user feedback? We've all been there. If your documentation has stayed perfectly current through all of that, I'd love to know your secret.
-
-This is the essence of the drift problem, and it's been haunting software development since the beginning.
+# The future of Agentic Software Development
 
 **The Source of Truth Problem**
 
@@ -21,6 +11,18 @@ But code has a critical limitation: it tells you _what_ the system does, not _wh
 So, we end up in an uncomfortable middle ground. Specs describe intent but drift from reality. Code is reality but obscures intent. Neither serves as a reliable source of truth for the whole picture.
 
 Spec-Driven Development (SDD) proposes a way out: what if specifications _generated_ code instead of merely guiding it?
+
+**What about your docs? They're a lie**
+
+Here's an uncomfortable truth: by the time you finish reading your project's documentation, it's probably wrong.
+
+Not because anyone wrote it badly. Not because the original authors were careless. It's wrong because software development has a fundamental problem: code evolves, but specs don't.
+
+With the pace of change accelerating in the world, it's out of date often shortly after it's written. That requirements document you spent days writing? It's now historical fiction; a snapshot of what you _intended_ to build, not what's actually running.
+
+Don't think so? Think about the last time you updated a PRD after the hotfix at 2am or after the "temporary" workaround that's now load-bearing. What about after your company's product pivoted based on user feedback? We've all been there. If your documentation has stayed perfectly current through all of that, I'd love to know your secret.
+
+This is the essence of the drift problem, and it's been haunting software development since the beginning.
 
 **Flipping the Relationship**
 
