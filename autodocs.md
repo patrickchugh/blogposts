@@ -50,7 +50,7 @@ Making this work requires orchestrating several tools, each handling what it doe
 
 ## Pipeline Architecture
 
-The I've been refining a pipeline script that follows a specific sequence, visualised below:<img src="file:///Users/patrick/git/UnifiedContinuousDocs/ADP.png" title="" alt="pipeline" data-align="center">
+The I've been refining a pipeline script that follows a specific sequence, visualised below:<img src="ADP.png" title="" alt="pipeline" data-align="center">
 
  
 
