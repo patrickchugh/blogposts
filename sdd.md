@@ -1,8 +1,16 @@
-> **TL;DR:** Documentation always drifts from reality because code evolves but specs don't. Spec-Driven Development (SDD) using LLMs flips this by making specifications generate code rather than merely guide it. Using Generative AI, structured specs become the source of truth that automatically produces implementations. The workflow has four phases that turn clear rules and instructions in English into code. The result: documentation that can't lie because the code derives from it. SDD won't replace developer judgment or fix bad architecture, but it shifts craft from writing code to precisely defining intent.
+
+
+
+
+
+
+![](/Users/patrick/git/blogposts/programming-background-with-person-working-with-codes-computer.jpg)
 
 # The future of Agentic Software Development
 
 #### By Patrick Chugh (December 2025)
+
+> **TL;DR:** Documentation always drifts from reality because code evolves but specs don't. Spec-Driven Development (SDD) using LLMs flips this by making specifications generate code rather than merely guide it. Using Generative AI, structured specs become the source of truth that automatically produces implementations. The workflow has four phases that turn clear rules and instructions in English into code. The result: documentation that can't lie because the code derives from it. SDD won't replace developer judgment or fix bad architecture, but it shifts craft from writing code to precisely defining intent.
 
 ### The Source of Truth Problem
 
@@ -61,6 +69,8 @@ Second, modern software is brutally complex. A capable developer twenty years ag
 ### The Practical Shape of SDD
 
 If you're wondering what this looks like in practice, it's built around four phases.
+
+![](/Users/patrick/git/blogposts/sddflow.jpg)
 
 **Phase 1: Setting the rules.** You start with what SDD calls a "constitution", a set of non-negotiable principles for your project. Think of it as your team's immutable architectural commandments engraved on a stone tablet. For example: Every library must be modular. Every feature gets tested before implementation. No over-engineered abstractions without documented justification. The AI model will also research existing organisational policies, coding standards, approved libraries and security controls to ensure the constitution is comprehensive. These constraints sound limiting, but they prevent the kind of wayward coding that current LLMs are notorious for.
 
